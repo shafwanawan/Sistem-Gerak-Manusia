@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>&lt;model-viewer&gt; template</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="../../../css/3dmodel.css" rel="stylesheet"/>
+    <link href="../../../css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <div class="petunjuk fs-6 lh-lg">
+      <div class="bg-dark p-2 text-white  text-center rounded" style="width: 95% ;">
+          <h5>PETUNJUK PENGGUNAAN 3D MODEL</h5>
+      </div>
+      <div class="bg-dark p-2 text-dark bg-opacity-10 rounded" style="width: 95%;">
+          <li>Tahan <b>"klik kiri"</b> pada Mouse/Trackpad untuk menggerakkan 3d model 360 derajat </li>
+          <li>Tahan <b>"klik kanan"</b> pada Mouse/Trackpad untuk mengubah posisi 3d model </li>
+          <li>Scroll <b>"Track Ball"</b> pada Mouse untuk zoom in / zoom out pada 3D model </li>
+          <li>Tombol <b>"X"</b> untuk kembali ke laman materi </li>
+      </div>  
+    </div>
+
+
+    <!-- <model-viewer> HTML element -->
+    <model-viewer style="width: 50%; position: absolute ; float: left ;" src="../../../assets/3dModel/Tdada.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" camera-orbit="0.001495deg 81.16deg 16.92m" field-of-view="14.45deg" camera-target="0.63m 3.954m -3.18m" min-camera-orbit="auto auto 11.77m" min-field-of-view="12deg">
+      <button class="Hotspot" slot="hotspot-1" data-position="0.023325624758688823m 4.747884597747343m 0.4542261926540625m" data-normal="0.08335215679082965m 0.5302325991675353m 0.8437451088678125m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Hulu</div>
+      </button><button class="Hotspot" slot="hotspot-2" data-position="0.013441503531687826m 4.2529676390348445m 0.7879774333170331m" data-normal="0.0021808819716379844m 0.5689263364380671m 0.8223855953632608m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Badan</div>
+      </button><button class="Hotspot" slot="hotspot-3" data-position="0.0006214528572114908m 3.453516292389222m 1.148864768193187m" data-normal="-0.03268597928070365m 0.02335902495890826m 0.9991926654611865m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Taju Pedang</div>
+      </button><button class="Hotspot" slot="hotspot-5" data-position="-0.5015196137834099m 4.715891799110788m -0.6143391190795884m" data-normal="0.4475114346549103m 0.20431314621476437m -0.8706260127844382m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Tulang Rusuk Sejati</div>
+      </button><button class="Hotspot" slot="hotspot-7" data-position="-0.6426417464629564m 3.440512052147096m -0.7121244975288764m" data-normal="0.4061480723971907m -0.06368436302778292m -0.9115854568792726m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Tulang Rusuk Melayang</div>
+      </button><button class="Hotspot" slot="hotspot-8" data-position="-0.5875730241148822m 2.4390306588849566m -0.20737115354725377m" data-normal="-0.2601311478559903m -0.4993659140869162m -0.8264172491927209m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Tulang Rusuk Palsu</div>
+      </button>
+    </model-viewer>  
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+  </body>
+</html>

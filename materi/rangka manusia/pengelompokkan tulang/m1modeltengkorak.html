@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>&lt;Tengkorak&gt; 3D MODEL</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="../../../css/3dmodel.css" rel="stylesheet" />
+    <link href="../../../css/styles.css" rel="stylesheet" />
+    <!-- OPTIONAL: The :focus-visible polyfill removes the focus ring for some input types -->
+    <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+</head>
+
+<body>
+    <!-- <model-viewer> HTML element -->
+    <div class="petunjuk fs-6 lh-lg">
+        <div class="bg-dark p-2 text-white  text-center rounded" style="width: 95% ;">
+            <h5>PETUNJUK PENGGUNAAN 3D MODEL</h5>
+        </div>
+        <div class="bg-dark p-2 text-dark bg-opacity-10 rounded" style="width: 95%;">
+            <li>Tahan <b>"klik kiri"</b> pada Mouse/Trackpad untuk menggerakkan 3d model 360 derajat </li>
+            <li>Tahan <b>"klik kanan"</b> pada Mouse/Trackpad untuk mengubah posisi 3d model </li>
+            <li>Scroll <b>"Track Ball"</b> pada Mouse untuk zoom in / zoom out pada 3D model </li>
+            <li>Tombol <b>"X"</b> untuk kembali ke laman materi </li>
+        </div>
+        
+    </div>
+    <model-viewer style=" float: left; width: 100vh; position: absolute; " src="../../../assets/3dModel/tengkorak.gltf" camera-controls poster="/assets/img/postertengkorak.webp" shadow-intensity="0.24" shadow-softness="0.55" exposure="0.24" environment-image="legacy">
+        <button class="Hotspot" slot="hotspot-2" data-position="1.7787906278495398m 8.579540265871449m -8.06014515402855m" data-normal="0.3102881532493006m -0.8524501329141028m -0.4207731370321391m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Tulang Ubun Ubun</div>
+      </button><button class="Hotspot" slot="hotspot-3" data-position="0.5761855992099498m 3.434844262302436m -8.946989051775933m" data-normal="0.16846703508502786m -0.9145700205040067m 0.3676690572851636m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Tulang tengkorak</div>
+      </button><button class="Hotspot" slot="hotspot-4" data-position="6.09183593380218m 4.855149491365653m -1.4432263273436174m" data-normal="0.9357724978915374m 0.19724316482881593m 0.2922754969513274m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Tulang Pelipis</div>
+      </button><button class="Hotspot" slot="hotspot-5" data-position="4.435142004461962m 4.488867350847641m 2.422992781864326m" data-normal="0.8171510211836984m 0.5760601410455215m -0.020467595780960107m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Tulang Baji</div>
+      </button><button class="Hotspot" slot="hotspot-6" data-position="3.8114692993112307m -4.006724140887886m 2.49422602978818m" data-normal="0.9032245576028513m 0.4282540012971132m -0.027998373455365686m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Tulang Rahang Bawah</div>
+      </button><button class="Hotspot" slot="hotspot-7" data-position="0.2566690686425952m -1.2366021863793313m 7.298360029809569m" data-normal="-0.22777305407608428m 0.8593825356635978m -0.45780027657621436m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Tulang Rahang Atas</div>
+      </button><button class="Hotspot" slot="hotspot-8" data-position="2.5142800438318265m 1.0119215942430795m 5.493328846702125m" data-normal="0.461230428984784m 0.881006329919897m 0.10532966353115186m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Tulang Pipi</div>
+      </button><button class="Hotspot" slot="hotspot-10" data-position="0.0794781278134733m 0.9593279900532214m 5.66821252442279m" data-normal="0.7190248999414419m 0.6041546940610543m 0.3435117158237741m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Tulang Hidung</div>
+      </button><button class="Hotspot" slot="hotspot-11" data-position="-3.009501417369732m 3.4558145701870764m 2.702423871242468m" data-normal="0.38891375858899757m 0.9209461085800739m -0.02458360167668782m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Tulang Air Mata</div>
+      </button><button class="Hotspot" slot="hotspot-12" data-position="0.5633582233435837m 9.3906589925942m 5.754357003647304m" data-normal="-0.05774377284779658m 0.7457571051841093m -0.6637107779482863m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Tulang Dahi</div>
+      </button>
+
+
+        <div class="progress-bar hide" slot="progress-bar">
+            <div class="update-bar"></div>
+        </div>
+
+    </model-viewer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="../../../js/3dtengkorakscript.js"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>&lt;model-viewer&gt; template</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="./styles.css" rel="stylesheet"/>
+    <link type="text/css" href="../../../css/3dmodel.css" rel="stylesheet"/>
+    <link href="../../../css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <div class="petunjuk fs-6 lh-lg">
+      <div class="bg-dark p-2 text-white  text-center rounded" style="width: 95% ;">
+          <h5>PETUNJUK PENGGUNAAN 3D MODEL</h5>
+      </div>
+      <div class="bg-dark p-2 text-dark bg-opacity-10 rounded" style="width: 95%;">
+          <li>Tahan <b>"klik kiri"</b> pada Mouse/Trackpad untuk menggerakkan 3d model 360 derajat </li>
+          <li>Tahan <b>"klik kanan"</b> pada Mouse/Trackpad untuk mengubah posisi 3d model </li>
+          <li>Scroll <b>"Track Ball"</b> pada Mouse untuk zoom in / zoom out pada 3D model </li>
+          <li>Tombol <b>"X"</b> untuk kembali ke laman materi </li>
+      </div>  
+    </div>
+
+
+
+    <!-- <model-viewer> HTML element -->
+    <model-viewer style="width: 50%;" src="../../../assets/3dModel/T.Gelang Bagu & Panggul.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1">
+      <button class="Hotspot" slot="hotspot-2" data-position="0.595016841017646m 5.131344011586191m 0.22123763088324003m" data-normal="0.0063253684951690165m 0.9213787428560827m 0.38861446438127495m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Tulang Selangka</div>
+      </button><button class="Hotspot" slot="hotspot-3" data-position="0.9295506061767318m 4.5625904478574215m -0.7905410640773642m" data-normal="0.2802530171117715m 0.25377289812001486m -0.9257740342975266m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Tulang Belikat</div>
+      </button><button class="Hotspot" slot="hotspot-5" data-position="0.8673793285805331m 1.0686747058764552m -0.23936024679224707m" data-normal="0.4150438923399525m -0.14204946493787982m -0.898643709677069m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Tulang Pinggul</div>
+      </button><button class="Hotspot" slot="hotspot-6" data-position="0.5315862218506853m -0.3499110077901262m -0.10254921898775254m" data-normal="0.6382165462396833m -0.3583942197958335m 0.6813466249441807m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Tulang Duduk</div>
+      </button><button class="Hotspot" slot="hotspot-7" data-position="-0.33605893633594563m 0.03054546748618985m 0.5183286235121334m" data-normal="-0.36619012118468847m -0.291346060692208m 0.8837546424578916m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Tulang Kemaluan</div>
+      </button>
+    </model-viewer>  
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.2.0/model-viewer.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../assets/img/logo.png">
+    <title>Sistem Gerak Manusia - Biologi</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="../../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="../../../css/sb-admin-2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../css/styleku.css">
+    <style>
+        .dragdrop{
+                    border: 1px solid rgb(255, 255, 255); 
+                    width:100%;
+                    height: 40px;
+                    background-color: #4E73DF;
+                    margin-top: 0.5%;
+                    margin-bottom: 0.5%;
+                    padding-top: 5px;
+                    color:rgb(255, 255, 255);
+                    border-radius: 5px;
+                    font-size: 85%;
+                    font-weight: bold;
+                }
+    </style>
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+       <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-dark sidebar sidebar-dark accordion" id="accordionSidebar">
+
+        <!-- Sidebar - Brand -->
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="../../../index.html">
+            <div class="sidebar-brand-icon rotate-n-15">
+                <i class="fas fa-laugh-wink"></i>
+            </div>
+            <div class="sidebar-brand-text mx-1">Sistem Gerak Manusia </div>
+        </a>
+
+        <!-- Divider -->
+        <hr class="sidebar-divider my-0">
+
+        <!-- Nav Item - Dashboard -->
+        <li class="nav-item active">
+            <a class="nav-link" href="../../../pendahuluan.html">
+                <i class="fas fa-fw fa-tachometer-alt"></i>
+                <span>Pendahuluan</span></a>
+        </li>
+
+        <!-- Divider -->
+        <hr class="sidebar-divider">
+
+        <!-- Heading -->
+        <div class="sidebar-heading">
+            Pembelajaran
+        </div>
+
+        <!-- Nav Item - Materi Ke 1 -->
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                aria-expanded="true" aria-controls="collapseTwo">
+                <i class="fas fa-fw fa-folder"></i>
+                <span>Rangka Manusia</span>
+            </a>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                    <h6 class="collapse-header">Komponen Materi :</h6>
+                    <a class="collapse-item" href="../../../materi/rangka manusia/m1-pendahuluan.html">Pendahuluan</a>
+                    <a class="collapse-item" href="../../../materi/rangka manusia/pengelompokkan tulang/m1-pengtulang.html">Pengelompokkan Tulang</a>
+                    <a class="collapse-item" href="../../../materi/rangka manusia/bentuk tulang/m1-bentuktulang.html">Bentuk tulang</a>
+                    <a class="collapse-item" href="../../../materi/rangka manusia/jenis tulang/m1-jenistulang.html">Jenis Tulang</a>
+                    <a class="collapse-item" href="../../../materi/rangka manusia/jenis tulang/m1-jenistulang.html">Hubungan Antar Tulang</a>
+                    <a class="collapse-item" href="../../../materi/rangka manusia/m1-rangkuman.html">Rangkuman</a>
+                    <a class="collapse-item" href="../../../materi/rangka manusia/m1-latsoal.html">Latihan Soal</a>
+
+                </div>
+            </div>
+        </li>
+
+        <!-- Nav Item - Materi Ke 2 -->
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
+                aria-expanded="true" aria-controls="collapseUtilities">
+                <i class="fas fa-fw fa-folder"></i>
+                <span>Otot Manusia</span>
+            </a>
+            <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
+                data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                    <h6 class="collapse-header">Komponen Materi :</h6>
+                    <a class="collapse-item" href="../../../materi/otot manusia/m2-pendahuluan.html">Pendahuluan</a>
+                    <a class="collapse-item" href="../../../materi/otot manusia/macam otot/m2-macamotot.html">Macam - Macam Otot</a>
+                    <a class="collapse-item" href="../../../materi/otot manusia/mekanisme otot/m2-mekanismeotot.html">Mekanisme Kerja Otot</a>
+                    <a class="collapse-item" href="../../../materi/otot manusia/sifat otot/m2-sifatotot.html">Sifat Kerja Otot</a>
+                    <a class="collapse-item" href="../../../materi/otot manusia/energi otot/m2-energiotot.html">Energi Untuk Kerja Otot</a>
+                    <a class="collapse-item" href="../../../materi/otot manusia/sumber energi otot/m2-sumberenergiotot.html">Sumber Energi Gerak Otot</a>
+                    <a class="collapse-item" href="../../../materi/otot manusia/m2-rangkuman.html">Rangkuman</a>
+                    <a class="collapse-item" href="../../../materi/otot manusia/m2-latsoal.html">Latihan Soal</a>
+                </div>
+            </div>
+        </li>
+
+        <!-- Nav Item - Materi 3 -->
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
+                aria-expanded="true" aria-controls="collapsePages">
+                <i class="fas fa-fw fa-folder"></i>
+                <span>Kelainan Sistem Gerak </span>
+            </a>
+            <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                    <h6 class="collapse-header">Komponen Materi :</h6>
+                    <a class="collapse-item" href="../../../materi/gangguan/m3-pendahuluan.html">Pendahuluan</a>
+                    <a class="collapse-item" href="../../../materi/gangguan/gangguan tulang/m3-gangguantulang.html">Gangguan Pada Tulang</a>
+                    <a class="collapse-item" href="../../../materi/gangguan/gangguan sendi/m3-gangguansendi.html">Gangguan Pada Sendi</a>
+                    <a class="collapse-item" href="../../../materi/gangguan/gangguan otot/m3-gangguanotot.html">Gangguan Pada Otot</a>
+                    <a class="collapse-item" href="../../../materi/gangguan/teknologi mengatasi/m3-teknologimengatasi.html">Teknologi Mengatasi <br> Gangguan Sistem Gerak</a>
+                    <a class="collapse-item" href="../../../materi/gangguan/m3-rangkuman.html">Rangkuman</a>
+                    <a class="collapse-item" href="../../../materi/gangguan/m3-latsoal.html">Latihan Soal</a>
+                </div>
+            </div>
+        </li>
+        <!-- Divider -->
+        <hr class="sidebar-divider">
+
+        <!-- Heading -->
+        <div class="sidebar-heading">
+            Penilaian Siswa
+        </div>
+        <!-- Nav Item - Charts -->
+        <li class="nav-item">
+            <a class="nav-link" href="../../../evalusi.html">
+                <i class="fas fa-fw fa-chart-area"></i>
+                <span>Evaluasi</span></a>
+        </li>
+
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+        </ul>
+    <!-- End of Sidebar -->
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <!-- isi terserah-->
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+                        <div class="topbar-divider d-none d-sm-block"></div>
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="mr-3 d-none d-lg-inline text-gray-600 ">ULM FKIP Pendidikan Komputer</span>
+                                <img class="rounded-circle" style="width: 48px ;" src="../../../assets/img/LogoUnlam.png">
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid"  >
+
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h4 mb-0 text-gray-800">Rangka Tubuh : Pengelompokkan Tulang ( Rangka Apendikular )</h1>
+                    </div>
+
+                    <!-- Isi Konten -->
+
+                    <div class="row">
+
+                        <!-- Area Chart -->
+                        <div class="col-xl-8 col-lg-7">
+                            <div class="card shadow mb-4">
+                                <div
+                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary">Rangka Apendikular : Tulang Gelang Bahu & Tulang Gelang Panggul</h6>
+                                </div>
+                                <!-- Card Body -->
+                                <div class="card-body">
+                                    <div class="pt-1 pb-1 text-dark text-justify">
+                                        <p>Tulang gelang bahu terdiri atas :
+                                            <ul>
+                                                <li>2 tulang belikat</li>
+                                                <li>2 tulang selangka yang melekat pada tulang dada</li>
+                                            </ul>
+                                            
+                                        </p>
+                                        <p>
+                                            Tulang gelang panggul terdiri atas 3 jenis tulang yang berkaitan erat sehingga
+                                            membentuk suatu lingkaran yang berlubang. Ketiga tulang tersebut adalah :
+                                            <ul>
+                                                <li>2 tulang pinggul (tulang usus)</li>
+                                                <li>2 tulang duduk</li>
+                                                <li>2 tulang kemaluan</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pie Chart -->
+                        <div class="col-xl-4 col-lg-5">
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Dropdown -->
+                                <div
+                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary"> Ilustrasi Gambar & 3D Model</h6>
+                                </div>
+                                <!-- Card Body -->
+                                <div class="card-body">
+                                    <div class="pt-1 pb-1 text-justify">
+                                        <img class="img-fluid" style="width: 250px;" src="../../../assets/img/m1tulang bahu.png" alt="">
+                                        <div class="text-center blockquote-footer fst-italic">
+                                            <p> sc : https://id.pinterest.com/</p>
+                                        </div>
+                                        <img class="" style="width: 230px;" src="../../../assets/img/m1tulang panggul.png" alt="">
+                                        <div class="text-center blockquote-footer fst-italic">
+                                            <p> sc :  https://id.pinterest.com</p>
+                                        </div>
+
+                                        <center>
+                                            <a href="#popuptbahupanggul" class="btn btn-primary" type="button">Tampilkan 3D Model</a>
+                                        </center>
+
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <!-- Area Chart -->
+                        <div class="col-xl-8 col-lg-7">
+                            <div class="card shadow mb-4">
+                                <div
+                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary">Rangka Apendikular : Tulang Anggota Gerak Atas & Tulang Anggota Gerak Bawah  </h6>
+                                </div>
+                                <!-- Card Body -->
+                                <div class="card-body">
+                                    <div class="pt-1 pb-1 text-dark text-justify">
+                                        <p>Fungsi utama tulang anggota gerak bagian atas adalah untuk melakukan berbagai aktivitas. 
+                                            Tulang anggota gerak bagian atas (lengan atau tangan) terdiri atas :
+                                        <ul>
+                                            <li>2 tulang lengan atas</li>
+                                            <li>2 tulang pengumpil</li>
+                                            <li>2 tulang hasta </li>
+                                            <li>16 atau (2 x 8) ruas pergelangan tangan</li>
+                                            <li>10 atau (2 x 5) tulang telapak tangan</li>
+                                            <li>28 atau (2 x 14) tulang jari tangan.</li>
+
+                                        </ul>
+                                        
+                                        </p>
+                                        <p>Fungsi utama tulang anggota gerak bagian bawah adalah untuk menopang berat tubuh dan mengatur gerak tubuh ketika berjalan. 
+                                            Tulang anggota gerak bagian bawah (kaki atau tungkai) terdiri atas :
+                                            <ul>
+                                                <li>2 tulang paha</li>
+                                                <li>2 tulang tempurung lutut</li>
+                                                <li>2 tulang kering </li>
+                                                <li>2 tulang betis</li>
+                                                <li>14 atau (2 x 7) tulang pergelangan kaki</li>
+                                                <li>10 atau (2 x 5) tulang telapak kaki</li>
+                                                <li>28 atau (2 x 14) tulang jari kaki</li>
+                                            </ul>
+                                        
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-lg-5">
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Dropdown -->
+                                <div
+                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary"> Ilustrasi Gambar & 3D Model</h6>
+                                </div>
+                                <!-- Card Body -->
+                                <div class="card-body">
+                                    <div class="pt-1 pb-1">
+                                        <img class="img-fluid"  src="../../../assets/img/m1tulang atas.png" alt="">
+                                        <div class="text-center blockquote-footer fst-italic">
+                                            <p> sc : https://id.pinterest.com/</p>
+                                        </div>
+
+                                        <center>
+                                            <a href="#popuptgerakatas" class="btn btn-primary" type="button">Tampilkan 3D Model</a>
+                                        </center>
+
+                                        <img class="img-fluid"  src="../../../assets/img/m1 tulang bawah.png" alt="">
+                                        <div class="text-center blockquote-footer fst-italic">
+                                            <p> sc : https://id.pinterest.com/</p>
+                                        </div>
+
+                                        <center>
+                                            <a href="#popuptgerakbawah" class="btn btn-primary" type="button">Tampilkan 3D Model</a>
+                                        </center>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- /.mari mencoba section-->
+                        <div class="col-xl-12 col-lg-12">
+                            <div class="card shadow mb-4">
+                                <div
+                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary">Mari Mencoba </h6>
+                                </div>
+                                <!-- Card Body -->
+                                <div class="card-body">
+
+                                  
+                                        <div class="pt-1 pb-3  text-justify text-wrap badge-primary" style="width: 87%; padding: 3px; border-radius: 10px;">
+                                            <center>Petunjuk Penggunaan Drag & Drop :</center>
+                                            <li style="list-style: none;">&nbsp;1. Pilih jawaban pada tabel pilihan jawaban kemudian drag pada nama berdasarkan nomor yang tertera pada gambar. </li>
+                                            <li style="list-style: none;">&nbsp;2. Hasil akan menampilkan icon <img src="../img/benar.jpg" style='width:20px;height:20px;'> apabila jawaban benar  </li>
+                                            <li style="list-style: none;">&nbsp;3. Hasil akan menampilkan icon <img src="../img/salah.jpg" style='width:20px;height:20px;'> apabila jawaban salah </li>
+                                        </div>
+                                  
+                                    <div class="row">
+                                        <div class="col-xl-4 col-lg-5">
+                                            <center><img style="width: 300px; padding-bottom: 30px; padding-top: 30px;" src="../../../assets/img/rangka mari mencoba.jpg" alt=""></center>
+                                        </div>  
+                                          
+                                        <div class="col-xl-8 col-lg-7">
+                                                <table class="table table-bordered text-center" style="margin-top: 30px;  width:100%">
+                                                    <thead class="table-dark">
+                                                      <tr>
+                                                        <th style="width:5%;">No</th>
+                                                        <th style="width:20%;">Nama</th>
+                                                        <th style="width:3%;">Hasil</th>
+                                                        <th style="width:20%;">pilihan jawaban</th>
+                                                      </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                      <tr>
+                                                        <td>1</td>
+                                                        <td id="div1" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+                                                        <td><p id="ket1"></p></td>
+                                                        <td rowspan="12" ondrop="drop(event)" draggable="true" ondragstart="drag(event)" ondragover="allowDrop(event)">
+                                                        <center>
+                                                          <div id="drag1" draggable="true" ondragstart="drag(event)" ondragover="allowDrop(event)" class="dragdrop">Osikula</div>
+                                                          <div id="drag5" draggable="true" ondragstart="drag(event)" ondragover="allowDrop(event)" class="dragdrop">Jari kaki</div>
+                                                          <div id="drag8" draggable="true" ondragstart="drag(event)" ondragover="allowDrop(event)" class="dragdrop">Tulang Belakang</div>
+                                                          <div id="drag3" draggable="true" ondragstart="drag(event)" ondragover="allowDrop(event)" class="dragdrop">Jari Tangan</div>
+                                                          <div id="drag6" draggable="true" ondragstart="drag(event)" ondragover="allowDrop(event)" class="dragdrop">Tengkorak</div>
+                                                          <div id="drag9" draggable="true" ondragstart="drag(event)" ondragover="allowDrop(event)" class="dragdrop">Tulang Panggul</div>
+                                                          <div id="drag11" draggable="true" ondragstart="drag(event)" ondragover="allowDrop(event)" class="dragdrop">Tulang hyoid</div>
+                                                          <div id="drag7" draggable="true" ondragstart="drag(event)" ondragover="allowDrop(event)" class="dragdrop">Tulang dada</div>
+                                                          <div id="drag4" draggable="true" ondragstart="drag(event)" ondragover="allowDrop(event)" class="dragdrop">Kaki</div>
+                                                          <div id="drag10" draggable="true" ondragstart="drag(event)" ondragover="allowDrop(event)" class="dragdrop">Tulang Bahu</div>
+                                                          <div id="drag2" draggable="true" ondragstart="drag(event)" ondragover="allowDrop(event)" class="dragdrop">Lengan</div>
+                                                        </center>
+                                                        </td>
+                                                      </tr>
+                                            
+                                                      <tr>
+                                                        <td>2</td>
+                                                        <td id="div2" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+                                                        <td><p id="ket2"></p></td>
+                                                      </tr>
+                                            
+                                                      <tr>
+                                                        <td>3</td>
+                                                        <td id="div3" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+                                                        <td><p id="ket3"></p></td>
+                                                      </tr>
+                                            
+                                                      <tr>
+                                                        <td>4</td>
+                                                        <td id="div4" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+                                                        <td><p id="ket4"></p></td>
+                                                      </tr>
+                                            
+                                                      <tr>
+                                                        <td>5</td>
+                                                        <td id="div5" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+                                                        <td><p id="ket5"></p></td>
+                                                      </tr>
+                                            
+                                                      <tr>
+                                                        <td>6</td>
+                                                        <td id="div6" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+                                                        <td><p id="ket6"></p></td>
+                                                      </tr>
+                                            
+                                                      <tr>
+                                                        <td>7</td>
+                                                        <td id="div7" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+                                                        <td><p id="ket7"></p></td>
+                                                      </tr>
+                                            
+                                                      <tr>
+                        
+                                                        <td>8</td>
+                                                        <td id="div8" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+                                                        <td><p id="ket8"></p></td>
+                                                      </tr>
+                                            
+                                                      <tr>
+                                                        <td>9</td>
+                                                        <td id="div9" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+                                                        <td><p id="ket9"></p></td>
+                                                      </tr>
+            
+                                                      <tr>
+                                                        <td>10</td>
+                                                        <td id="div10" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+                                                        <td><p id="ket10"></p></td>
+                                                      </tr>
+            
+                                                      <tr>
+                                                        <td>11</td>
+                                                        <td id="div11" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+                                                        <td><p id="ket11"></p></td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                  <a onclick="cekReal()" class="btn btn-success"><b>Cek Jawaban</b></a>
+                                        </div>
+                                    </div>
+                                    
+                                   
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-grid gap-3 col-4 mx-auto">
+                            <a href="../m1-pendahuluan.html" class="btn btn-primary" type="button">Sebelumnya</a>
+                            <a href="m1-pengtulang.html" class="btn btn-dark" type="button">1</a>
+                            <a href="m1-pengtulang apend.html" class="btn btn-dark" type="button">2</a>
+                            <a href="../bentuk tulang/m1-bentuktulang.html" class="btn btn-primary" type="button">Selanjutnya</a>
+                          </div>
+                    </div>
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; SRP 2023</span>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- pop up konten 3d modelling tengkorak-->
+        <div class="popup" id="popuptbahupanggul">
+            <div class="popup_konten">
+                <iframe class="custom-iframe" src="../pengelompokkan tulang/m1modelbahupinggul.html" frameborder="0"></iframe>
+                <a href="#" class="popup_tutup">&times;</a>
+            </div>
+        </div>
+    <!-- end dari popup koding-->
+
+    <!-- pop up konten 3d modelling tengkorak-->
+    <div class="popup" id="popuptgerakatas">
+        <div class="popup_konten">
+            <iframe class="custom-iframe" src="../pengelompokkan tulang/m1modelgerakatas.html" frameborder="0"></iframe>
+            <a href="#" class="popup_tutup">&times;</a>
+        </div>
+    </div>
+    <!-- end dari popup koding-->
+
+    <!-- pop up konten 3d modelling tengkorak-->
+    <div class="popup" id="popuptgerakbawah">
+        <div class="popup_konten">
+            <iframe class="custom-iframe" src="../pengelompokkan tulang/m1modelgerakbawah.html" frameborder="0"></iframe>
+            <a href="#" class="popup_tutup">&times;</a>
+        </div>
+    </div>
+    <!-- end dari popup koding-->
+
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="../../../vendor/jquery/jquery.min.js"></script>
+    <script src="../../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="../../../vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="../../../js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="../../../vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="../../../js/demo/chart-area-demo.js"></script>
+    <script src="../../../js/demo/chart-pie-demo.js"></script>
+    <script src="drag.js"></script>
+</body>
+</html>

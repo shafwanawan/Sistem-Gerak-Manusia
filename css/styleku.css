@@ -1,0 +1,239 @@
+/* jumbotron */
+
+.jumbotron {
+    padding-top: 7rem;
+    background-color: #e2e3e5;
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url("../assets/img/hero-bg.jpg") top center no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 82px;
+  }
+  
+  #hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #hero h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  #hero h2 {
+    color: #fff;
+    margin: 10px 0 0 0;
+    font-size: 24px;
+  }
+  
+  #hero .btn-get-started {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 4px;
+    transition: 0.5s;
+    margin-top: 30px;
+    color: #fff;
+    background: #e03a3c;
+    border: 2px solid #e03a3c;
+  }
+  
+  #hero .btn-get-started:hover {
+    background: transparent;
+    border-color: #fff;
+  }
+  
+
+/* pop up */
+.popup {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed ;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+}
+.custom-iframe{
+    
+    width: 1100px;
+    height: 500px;
+}
+
+.popup_konten{
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0 20px 40px (0,0,0, .2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%) scale(.25);
+    opacity: 0;
+    transition: all .5s .1s;
+
+}
+
+.popup_tutup:link,
+.popup_tutup:visited{
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    display: inline-block;
+    line-height: 1;
+    transition: all .3s;
+}
+
+.popup_tutup:hover,
+.popup_tutup:active{
+    color: #555;
+}
+
+#popup:target{
+    opacity: 1;
+    visibility: visible;
+}
+#popup:target .popup_konten{
+    opacity: 1;
+    transform: translate(-50% , -50%) scale(1);
+    
+}
+
+#popuptbelakang:target{
+    opacity: 1;
+    visibility: visible;
+}
+#popuptbelakang:target .popup_konten{
+    opacity: 1;
+    transform: translate(-50% , -50%) scale(1);
+    
+}
+#popuptrusuk:target{
+    opacity: 1;
+    visibility: visible;
+}
+#popuptrusuk:target .popup_konten{
+    opacity: 1;
+    transform: translate(-50% , -50%) scale(1);
+    
+}
+
+
+#popuptbahupanggul:target{
+    opacity: 1;
+    visibility: visible;
+}
+#popuptbahupanggul:target .popup_konten{
+    opacity: 1;
+    transform: translate(-50% , -50%) scale(1);
+    
+}
+
+#popuptgerakatas:target{
+    opacity: 1;
+    visibility: visible;
+}
+#popuptgerakatas:target .popup_konten{
+    opacity: 1;
+    transform: translate(-50% , -50%) scale(1);
+    
+}
+
+#popuptgerakbawah:target{
+    opacity: 1;
+    visibility: visible;
+}
+#popuptgerakbawah:target .popup_konten{
+    opacity: 1;
+    transform: translate(-50% , -50%) scale(1);
+    
+}
+
+
+#popuptpipih:target{
+    opacity: 1;
+    visibility: visible;
+}
+#popuptpipih:target .popup_konten{
+    opacity: 1;
+    transform: translate(-50% , -50%) scale(1);
+    
+}
+
+#popuptpendek:target{
+    opacity: 1;
+    visibility: visible;
+}
+#popuptpendek:target .popup_konten{
+    opacity: 1;
+    transform: translate(-50% , -50%) scale(1);
+    
+}
+
+#popuptpipa:target{
+    opacity: 1;
+    visibility: visible;
+}
+#popuptpipa:target .popup_konten{
+    opacity: 1;
+    transform: translate(-50% , -50%) scale(1);
+    
+}
+
+#popupttakberaturan:target{
+    opacity: 1;
+    visibility: visible;
+}
+#popupttakberaturan:target .popup_konten{
+    opacity: 1;
+    transform: translate(-50% , -50%) scale(1);
+    
+}
+
+#popuptmateri:target{
+    opacity: 1;
+    visibility: visible;
+}
+#popuptmateri:target .popup_konten{
+    opacity: 1;
+    transform: translate(-50% , -50%) scale(1);
+    
+}
+
+#popupt3d:target{
+    opacity: 1;
+    visibility: visible;
+}
+#popupt3d:target .popup_konten{
+    opacity: 1;
+    transform: translate(-50% , -50%) scale(1);
+    
+}
+#popuptlatihan:target{
+    opacity: 1;
+    visibility: visible;
+}
+#popuptlatihan:target .popup_konten{
+    opacity: 1;
+    transform: translate(-50% , -50%) scale(1);
+    
+}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>&lt;model-viewer&gt; template</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="../../../css/3dmodel.css" rel="stylesheet"/>
+    <link href="../../../css/styles.css" rel="stylesheet" />
+
+
+  </head>
+  <body>
+
+    <div class="petunjuk fs-6 lh-lg">
+      <div class="bg-dark p-2 text-white  text-center rounded" style="width: 95% ;">
+          <h5>PETUNJUK PENGGUNAAN 3D MODEL</h5>
+      </div>
+      <div class="bg-dark p-2 text-dark bg-opacity-10 rounded" style="width: 95%;">
+          <li>Tahan <b>"klik kiri"</b> pada Mouse/Trackpad untuk menggerakkan 3d model 360 derajat </li>
+          <li>Tahan <b>"klik kanan"</b> pada Mouse/Trackpad untuk mengubah posisi 3d model </li>
+          <li>Scroll <b>"Track Ball"</b> pada Mouse untuk zoom in / zoom out pada 3D model </li>
+          <li>Tombol <b>"X"</b> untuk kembali ke laman materi </li>
+      </div>  
+    </div>
+
+
+    <!-- <model-viewer> HTML element -->
+    <model-viewer style="width: 50%;" src="../../../assets/3dModel/anggota gerak atas.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" exposure="0.73">
+      <button class="Hotspot" slot="hotspot-2" data-position="1.858085163630034m 3.6493598648038486m -0.2280616639506845m" data-normal="-0.19337377947957923m -0.11122360323645103m 0.9748004367525098m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Tulang Lengan Atas</div>
+      </button><button class="Hotspot" slot="hotspot-5" data-position="2.6709955580587414m 1.4473833597991328m -0.3801222221606611m" data-normal="0.4548205930464663m 0.08732902840258511m -0.8862910746132566m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Tulang Hasta</div>
+      </button><button class="Hotspot" slot="hotspot-6" data-position="3.143820616430652m 0.7528946418741791m -0.2678813204542958m" data-normal="0.1506605971426579m 0.11435443789189065m -0.9819493097930502m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Tulang Pengumpil</div>
+      </button><button class="Hotspot" slot="hotspot-7" data-position="3.2139221324687997m -0.07700617344406324m -0.3394892866242829m" data-normal="-0.18296252505446156m -0.09039226223238982m -0.9789555420723695m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Tulang Pergelangan Tangan</div>
+      </button><button class="Hotspot" slot="hotspot-8" data-position="3.2041891599099306m -0.47424045902910406m -0.31991058426437496m" data-normal="-0.1610636203765515m 0.07463878641083534m 0.9841176564589805m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Tulang Telapak Tangan</div>
+      </button><button class="Hotspot" slot="hotspot-9" data-position="3.371766864949921m -0.8784589503865426m -0.2954487818081076m" data-normal="0.45512188775965967m 0.13390659154708998m 0.8803028410850011m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Tulang Jari Tangan</div>
+      </button>
+    </model-viewer>  
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.2.0/model-viewer.min.js"></script>
+  </body>
+</html>

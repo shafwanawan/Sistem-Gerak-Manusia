@@ -1,0 +1,91 @@
+[{
+    "no" : "1",
+    "soal": "Pernyataan berikut yang merupakan persamaan antara sel otot jantung dan sel otot rangka adalah...",
+    "a": "a. Membentuk percabangan",
+    "b": "b. Berinti banyak",
+    "c": "c. kerjanya tidak volenter",
+    "d": "d. Memiliki garis melintang",
+    "e": "e. Berinti satu",
+    "benar": "d"
+},{
+    "no" : "2",
+    "soal":	" Sehabis olahraga napas suka tersengal-sengal, hal ini dikarenakan karena kekurangan...",
+    "a": "a. Kalsium",
+    "b": "b. Asam adipat",
+    "c": "c. Asam laktat",
+    "d": "d. Asam piruvat",
+    "e": "e. Asetaldehid",
+    "benar": "c"
+},{
+    "no" : "3",
+    "soal":	"Mekanisme yang terjadi dalam kontraksi otot...",
+    "a": "a. Memanjangnya ukuran otot akibat gesekan molekul aktin dan myosin yang memerlukan energi dari pemecahan ATP",
+    "b": "b. Memanjangnya ukuran otot akibat gesekan myofibril yang memerlukan energi dari metabolism aerobic glukosa.",
+    "c": "c. Mengendurnya ukuranotot akibat geseran myofibril yang memerlukan ion kalsium dan fosfat anorganik.",
+    "d": "d. Menggesernya filamen-filamen yang lebih tebal ke filamen yang lebih tipis dan diperlukan energi dari pemecahan asam piruvat",
+    "e": "e. Memendeknya ukuran otot akibat zona Z menjadi lebih Panjang dan zona H menjadi lebih pendek yang prosesnya memerlukan energi dari pemecahan ATP",
+    "benar": "e"
+},{
+    "no" : "4",
+    "soal":	"Kontraksi otot bispes dan otot triseps pada waktu kita bermain tenis meja adalah...",
+    "a": "a. Abduksi dan adduksi",
+    "b": "b. Fleksi dan ekstensi",
+    "c": "c. Depresi dan elevasi",
+    "d": "d. Supinasi dan pronasi",
+    "e": "e. Rotasi da ekstensi",
+    "benar": "b"
+},{
+    "no" : "5",
+    "soal":	"Apabila seseorang membengkokkan tangannya (fleksi), maka mekanisme kerja yang terjadi adalah...",
+    "a": "a. Sinergis, yaitu otot bisep berkontraksi, trisep relaksasi",
+    "b": "b. Antagonis yaitu otot trisep berkontraksi, bisep relaksasi",
+    "c": "c. Sinergis, yaitu otot trisep berkontraksi, bisep relaksasi",
+    "d": "d. Sinergis, yaitu otot bisep dan trisep berkontraksi",
+    "e": "e. Antagonis, yaitu otot bisep berkontraksi, trisep relaksasi",
+    "benar": "e"
+},{
+    "no" : "6",
+    "soal":	"Seorang atlet mengalami cedera pada ligamen lututnya. Akibat cedera ini, gerakan apa yang paling mungkin terganggu...",
+    "a": "a. Fleksi dan ekstensi lutut",
+    "b": "b. Rotasi bahu",
+    "c": "c. Fleksi dan ekstensi lengan",
+    "d": "d. Rotasi pinggul",
+    "e": "e. Inversi dan eversi kaki",
+    "benar": "a"
+},{
+    "no" : "7",
+    "soal":	"Dalam sistem gerak, jenis serat otot yang memiliki tingkat kontraksi yang cepar dan mudah lelah adalah...",
+    "a": "a. Serat otot tipe I",
+    "b": "b. Serat otot tipe IIa",
+    "c": "c. Serat otot tipe IIb",
+    "d": "d. Serat otot tipe IIx",
+    "e": "e. Serat otot tipe III",
+    "benar": "c"
+},{
+    "no" : "8",
+    "soal":	"Pada sistem gerak, enzim yang bertanggung jawab untuk mengatur konversi ATP menjadi energi yang digunakan sel otot adalah...",
+    "a": "a. Miosin",
+    "b": "b. Kalsiumase",
+    "c": "c. ATPase",
+    "d": "d. Troponin",
+    "e": "e. Hemoglobin",
+    "benar": "c"
+},{
+    "no" : "9",
+    "soal":	" Seorang pemain bulu tangkis mengalami cedera pada otot paha. Akibat cedera ini, gerakan apa yang paling mungkin terganggu...",
+    "a": "a. Rotasi bahu",
+    "b": "b. Ekstensi lengan",
+    "c": "c. Inversi dan eversi kaki",
+    "d": "d. Fleksi dan ekstensi lutut",
+    "e": "e. rotasi pinggul",
+    "benar": "d"
+},{
+    "no" : "10",
+    "soal":	" Dalam proses kontraksi otot, ion kalsium (Ca^2+) berperan dalam...",
+    "a": "a. Memulai impuls saraf menuju otot",
+    "b": "b. Meneruskan impuls saraf dari satu otot ke otot lain",
+    "c": "c. Melepaskan neurotransmiter ke dalam celah sinapsis",
+    "d": "d. Mengikat filamen aktin dan miosin untuk memulai kontraksi",
+    "e": "e. Merangsang produksi ATP dalam otot",
+    "benar": "d"
+}]

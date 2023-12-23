@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>&lt;model-viewer&gt; template</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="../../../css/3dmodel.css" rel="stylesheet"/>
+    <link href="../../../css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <div class="petunjuk fs-6 lh-lg">
+      <div class="bg-dark p-2 text-white  text-center rounded" style="width: 95% ;">
+          <h5>PETUNJUK PENGGUNAAN 3D MODEL</h5>
+      </div>
+      <div class="bg-dark p-2 text-dark bg-opacity-10 rounded" style="width: 95%;">
+          <li>Tahan <b>"klik kiri"</b> pada Mouse/Trackpad untuk menggerakkan 3d model 360 derajat </li>
+          <li>Tahan <b>"klik kanan"</b> pada Mouse/Trackpad untuk mengubah posisi 3d model </li>
+          <li>Scroll <b>"Track Ball"</b> pada Mouse untuk zoom in / zoom out pada 3D model </li>
+          <li>Tombol <b>"X"</b> untuk kembali ke laman materi </li>
+      </div>  
+    </div>
+
+
+    <!-- <model-viewer> HTML element -->
+    <model-viewer style="width: 50%;" src="../../../assets/3dModel/Tulang Belakang.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="0.88">
+      <button class="Hotspot" slot="hotspot-2" data-position="-0.04256858830410204m 5.851878825647838m 0.025822567443162775m" data-normal="-0.22469222374255088m -0.03641292395657124m 0.9737491995162618m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Tulang Leher 7 Ruas </div>
+      </button><button class="Hotspot" slot="hotspot-3" data-position="0.016095611934980547m 4.078782348361434m -0.3545832013435978m" data-normal="0.00610131499647308m 0.006356744009617069m 0.9999611821270415m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Tulang Punggung 12 Ruas</div>
+      </button><button class="Hotspot" slot="hotspot-4" data-position="0.017685146853207212m 1.67527582629147m 0.20513961704235056m" data-normal="0.08234224220373063m -0.09143884867851436m 0.9924004696196038m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Tulang Pinggang 12 Ruas</div>
+      </button><button class="Hotspot" slot="hotspot-5" data-position="0.0016966451667178029m 0.5377724530288488m -0.22945512950263208m" data-normal="0.1714209163903121m -0.8896109950707888m 0.4233286511365213m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Tulang Sakrum</div>
+      </button><button class="Hotspot" slot="hotspot-6" data-position="-0.004026857506665538m 0.011217329290795108m -0.5302161322832453m" data-normal="0.03248429082041175m 0.1918510077065685m 0.9808863143564953m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Tulang Ekor</div>
+      </button>
+    </model-viewer>  
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+  </body>
+</html>
